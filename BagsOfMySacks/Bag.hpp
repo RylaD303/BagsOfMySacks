@@ -64,8 +64,11 @@ public:
 	}
 	T Get()
 	{
-		size--;
-		return data[size + 1];
+		if (size > 0)
+		{
+			size--;
+			return data[size];
+		}
 	}
 
 	Bag operator+(Bag& other)
@@ -75,7 +78,7 @@ public:
 		data = new T[capacity];
 		for (int i = other.size - 1; i >= 0; i--)
 		{
-			copy.Add(other.Get())
+			copy.Add(other.Get());
 		}
 		return copy;
 	}

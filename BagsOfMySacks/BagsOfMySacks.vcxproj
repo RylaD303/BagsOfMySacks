@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BagsOfMySacks.cpp" />
+    <ClCompile Include="ImprovedBag.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bag.hpp" />
+    <ClInclude Include="ImprovedBag.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,9 +18,15 @@
     <ClCompile Include="BagsOfMySacks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ImprovedBag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bag.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImprovedBag.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
